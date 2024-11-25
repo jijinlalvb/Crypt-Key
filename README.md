@@ -1,5 +1,4 @@
-Crypt Key - READ ME 📝
-=
+# Crypt Key - READ ME 📝
 
 Welcome to **Crypt Key**, a secure message encryption and decryption tool! 🔐
 
@@ -12,7 +11,7 @@ Currently supported only on **Windows** (.exe).
 
 -----------------------------------------------------------------------
 
-**Key Features:**
+# **Key Features:**
 - **Strong Password Validation:** Ensures your password meets security standards (minimum length, uppercase, numbers, and special characters).
 - **Password-based Encryption & Decryption:** Securely encrypt your messages with a password, and decrypt them with the same password.
 - **Multi-threading:** Encryption and decryption operations are handled in separate threads for faster and more responsive processing.
@@ -21,8 +20,7 @@ Currently supported only on **Windows** (.exe).
 
 -----------------------------------------------------------------------
 
-**How to Use:**
-
+# **How to Use:**
 1. **Running the Application:**
    - Download and run the `Crypt Key.exe` for Windows.
    - Double-click the executable to launch the application.
@@ -57,7 +55,7 @@ Currently supported only on **Windows** (.exe).
 
 -----------------------------------------------------------------------
 
-**Important Notes:**
+# **Important Notes:**
 
 - **Password Security:** Always choose a strong password to ensure the security of your encrypted messages. If you forget your password, the message cannot be decrypted.
 - **Encryption Key:** The application uses **Fernet encryption**, which is password-based. The same password used for encryption must be used for decryption.
@@ -66,14 +64,16 @@ Currently supported only on **Windows** (.exe).
 
 -----------------------------------------------------------------------
 
-**Troubleshooting:**
+# **Troubleshooting:**
+
 - **Invalid Token (Decryption Failed):** If decryption fails with an "InvalidToken" error, it typically means the password you entered is incorrect or the encrypted message has been altered. Ensure you are using the correct password.
 - **Password Validation Errors:** If your password does not meet the requirements (e.g., too short or missing special characters), the program will prompt you to enter a valid password.
 - **Password Re-entry:** If your password is weak or invalid, you can choose to re-enter it, or you can proceed with the weak password if you select 'n' after being warned.
 
 -----------------------------------------------------------------------
 
-**Security Considerations:**
+# **Security Considerations:**
+
 - **Never share your password.** The strength of encryption depends on the secrecy of your password. Keep your password safe.
 - **Backup encrypted messages and passwords.** Losing the password means you cannot decrypt the message, so ensure you save your passwords securely.
 - **Ending Line for Encryption:** Be sure to remember the custom ending line used during encryption, as it marks the end of the message input.
